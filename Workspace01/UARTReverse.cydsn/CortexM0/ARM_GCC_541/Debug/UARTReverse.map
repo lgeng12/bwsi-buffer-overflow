@@ -691,17 +691,17 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x222b
+.debug_info     0x00000000     0x221b
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x1d1 .\CortexM0\ARM_GCC_541\Debug\main.o
- .debug_info    0x000001d1      0x454 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_info    0x00000625       0xf8 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
- .debug_info    0x0000071d      0x312 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
- .debug_info    0x00000a2f      0x50a .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(UART.o)
- .debug_info    0x00000f39      0x150 .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(UART_IntClock.o)
- .debug_info    0x00001089      0x8e0 .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(CyLib.o)
- .debug_info    0x00001969      0x81f .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(CyLFClk.o)
- .debug_info    0x00002188       0xa3 .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(CyBootAsmGnu.o)
+ .debug_info    0x00000000      0x1c1 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_info    0x000001c1      0x454 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x00000615       0xf8 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x0000070d      0x312 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_info    0x00000a1f      0x50a .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(UART.o)
+ .debug_info    0x00000f29      0x150 .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(UART_IntClock.o)
+ .debug_info    0x00001079      0x8e0 .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(CyLib.o)
+ .debug_info    0x00001959      0x81f .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(CyLFClk.o)
+ .debug_info    0x00002178       0xa3 .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a(CyBootAsmGnu.o)
 
 .debug_abbrev   0x00000000      0xa63
  *(.debug_abbrev)

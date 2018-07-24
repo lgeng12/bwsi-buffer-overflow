@@ -1,4 +1,4 @@
---------------- Rebuild Started: 07/23/2018 15:13:19 Project: UARTReverse, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Rebuild Started: 07/23/2018 21:16:02 Project: UARTReverse, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\cymetadata.o"
@@ -24,7 +24,7 @@ Deleting file ".\UARTReverse.rpt"
 Deleting file ".\UARTReverse_timing.html"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
-cydsfit.exe -.appdatapath "C:\Users\Heckerman\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "C:\Users\Heckerman\PSoC Creator Projects\UARTReverse\Workspace01\UARTReverse.cydsn\UARTReverse.cyprj" -d CY8C4245AXI-483 -s "C:\Users\Heckerman\PSoC Creator Projects\UARTReverse\Workspace01\UARTReverse.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+cydsfit.exe -.appdatapath "C:\Users\Larry\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\UARTReverse.cyprj" -d CY8C4245AXI-483 -s "C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
 HDL Generation...
 Synthesis...
@@ -41,10 +41,6 @@ API Generation...
 Dependency Generation...
 Cleanup...
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
-main.c: In function 'main':
-main.c:43:24: warning: unused variable 'MAX_LENGTH' [-Wunused-variable]
-     unsigned long long MAX_LENGTH = 32;
-                        ^
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c Generated_Source\PSoC4\cymetadata.c -o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/UART.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c Generated_Source\PSoC4\UART.c -o .\CortexM0\ARM_GCC_541\Debug\UART.o
@@ -62,12 +58,12 @@ arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-
 arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC4\CyBootAsmGnu.s
 arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\UART_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_INT.o .\CortexM0\ARM_GCC_541\Debug\UART_BOOT.o .\CortexM0\ARM_GCC_541\Debug\UART_IntClock.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
 arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a
-arm-none-eabi-gcc.exe -Wl,--start-group -o "C:\Users\Heckerman\PSoC Creator Projects\UARTReverse\Workspace01\UARTReverse.cydsn\CortexM0\ARM_GCC_541\Debug\UARTReverse.elf" .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/UARTReverse.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -O0 -ffat-lto-objects -Wl,--end-group
-cyelftool.exe -C "C:\Users\Heckerman\PSoC Creator Projects\UARTReverse\Workspace01\UARTReverse.cydsn\CortexM0\ARM_GCC_541\Debug\UARTReverse.elf" --flash_row_size 128 --flash_size 32768 --flash_offset 0x00000000
+arm-none-eabi-gcc.exe -Wl,--start-group -o "C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\CortexM0\ARM_GCC_541\Debug\UARTReverse.elf" .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\UARTReverse.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/UARTReverse.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -O0 -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\CortexM0\ARM_GCC_541\Debug\UARTReverse.elf" --flash_row_size 128 --flash_size 32768 --flash_offset 0x00000000
 No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
-cyelftool.exe -S "C:\Users\Heckerman\PSoC Creator Projects\UARTReverse\Workspace01\UARTReverse.cydsn\CortexM0\ARM_GCC_541\Debug\UARTReverse.elf"
-Flash used: 4486 of 32768 bytes (13.7%).
-SRAM used: 1556 of 4096 bytes (38.0%). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Rebuild Succeeded: 07/23/2018 15:13:42 ---------------
+cyelftool.exe -S "C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\CortexM0\ARM_GCC_541\Debug\UARTReverse.elf"
+Flash used: 4470 of 32768 bytes (13.6%).
+SRAM used: 1540 of 4096 bytes (37.6%). Stack: 1024 bytes. Heap: 128 bytes.
+--------------- Rebuild Succeeded: 07/23/2018 21:16:16 ---------------

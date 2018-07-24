@@ -55,7 +55,7 @@ int main(void)
     
     for(;;)
     {
-      char strunged[33];
+      char strunged[32];
       uint8 i = read(strunged);
       char strung2electricboogaloo[i + 1];
       for(int k = i-1; k >= 0; k--){
