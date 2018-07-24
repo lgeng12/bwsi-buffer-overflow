@@ -6,7 +6,7 @@
 
 #Build Date:         Dec  5 2017 15:35:27
 
-#File Generated:     Jul 23 2018 15:15:53
+#File Generated:     Jul 23 2018 20:48:27
 
 #Purpose:            
 
@@ -77,7 +77,7 @@ analysis after routing.
                      Clock Summary 
 ======================================================================
 Number of clocks: 7
-Clock: CyHFClk              | Frequency:  47.3 MHz | Target:  24.0 MHz
+Clock: CyHFClk              | Frequency:  45.9 MHz | Target:  24.0 MHz
 Clock: CyILO                | Frequency: N/A       | Target:   0.0 MHz
 Clock: CyIMO                | Frequency: N/A       | Target:  24.0 MHz
 Clock: CyLFClk              | Frequency: N/A       | Target:   0.0 MHz
@@ -155,5 +155,5 @@ D2088: Phase 8, elapsed time : 0.0 (sec)
 
 D2054: Placement of the design completed successfully
 
-I2076: Total run-time: 0.4 sec.
+I2076: Total run-time: 0.5 sec.
 

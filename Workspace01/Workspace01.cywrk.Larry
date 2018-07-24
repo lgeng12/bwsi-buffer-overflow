@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\UARTReverse\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01">
 <ExpandedNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\UARTReverse</v>
@@ -187,7 +187,18 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\UARTReverse.cydsn\main.c" />
+<name v=".\UARTReverse.cydsn\Generated_Source\PSoC4\UART.c" />
+<name v=".\UARTReverse.cydsn\UARTReverse.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1365, 531" SelectedTabbedMdiWindow="449a08fc-aac6-4d99-8cd5-f4f55d21c7ee"><DocumentWindow Key="C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\main.c" Guid="449a08fc-aac6-4d99-8cd5-f4f55d21c7ee" /><DocumentWindow Key="C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\Generated_Source\PSoC4\UART.c" Guid="43fdcbb9-b509-423b-9a5b-feb5f8b4bd4d" /><DocumentWindow Key="C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\UARTReverse.cydwr" Guid="7513e7d4-1912-4627-b08b-c099da730ebe" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

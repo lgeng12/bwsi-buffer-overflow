@@ -1,5 +1,5 @@
 -- Project:   UARTReverse
--- Generated: 07/23/2018 15:15:53
+-- Generated: 07/23/2018 20:48:27
 -- PSoC Creator  4.2
 
 ENTITY UARTReverse IS
@@ -75,9 +75,9 @@ ARCHITECTURE __DEFAULT__ OF UARTReverse IS
     ATTRIBUTE GROUND OF zero : SIGNAL IS true;
     ATTRIBUTE Location OF ClockGenBlock : LABEL IS "F(CLK_GEN,0)";
     ATTRIBUTE lib_model OF Rx_1(0) : LABEL IS "iocell1";
-    ATTRIBUTE Location OF Rx_1(0) : LABEL IS "P1[4]";
+    ATTRIBUTE Location OF Rx_1(0) : LABEL IS "P1[5]";
     ATTRIBUTE lib_model OF Tx_1(0) : LABEL IS "iocell2";
-    ATTRIBUTE Location OF Tx_1(0) : LABEL IS "P1[5]";
+    ATTRIBUTE Location OF Tx_1(0) : LABEL IS "P1[4]";
     ATTRIBUTE lib_model OF Net_2 : LABEL IS "macrocell1";
     ATTRIBUTE lib_model OF \UART:BUART:counter_load_not\ : LABEL IS "macrocell2";
     ATTRIBUTE lib_model OF \UART:BUART:tx_status_0\ : LABEL IS "macrocell3";

@@ -1,6 +1,6 @@
-C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\UARTReverse.cyprj|f42f4abe-8562-4edc-b9f9-1cf3d1e075ef
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|060f2707-da55-4d82-927c-1e7c93645f1e
-C:\Users\Larry\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a50fa5d2-b7af-4e7e-b647-2d68e60d8a51
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2eb07c79-9b70-4159-9048-b271df85780a
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|2688cfb0-e3bb-43e3-87ed-9b7a8e5e3b62
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|078829c0-8639-4c29-8ce7-bbaae11f5840
+C:\Users\Larry\Documents\PSoC Creator\bwsi\UARTReverse\Workspace01\UARTReverse.cydsn\UARTReverse.cyprj|405ad6cf-820f-42cb-a35c-aa02f4bb9efa
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|55d64589-d305-4713-9be6-b7b620956eab
+C:\Users\Larry\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|2b9f9f95-1e04-4719-b002-c75035eb8e98
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c263d178-00c8-4b64-ae29-90fa61ee797c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|eb41f434-ce46-4664-844a-c13a4f769207
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|739752ef-2e98-4fc6-9be0-5fb12e73488d

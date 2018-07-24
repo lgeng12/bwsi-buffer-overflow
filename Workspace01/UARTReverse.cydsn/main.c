@@ -27,14 +27,13 @@ uint8 read(char* obuf){
         char thisByte = getValidByte();
         UART_PutChar(thisByte);
         if (thisByte == '!'){
-            strung[i] = thisByte;
             break;
         }
         strung[i] = thisByte;
         i++;
     }
     
-    memcpy(obuf, strung, i -1);
+    memcpy(obuf, strung, i);
     return i;
 }
 
@@ -50,20 +49,26 @@ int main(void)
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     UART_Start();
-
+    //char dummy[1] ;
+    //dummy[0] = 0;
+    char * password = "hello";
+    
     for(;;)
     {
-      char strunged[32];
+      char strunged[33];
       uint8 i = read(strunged);
       char strung2electricboogaloo[i + 1];
-      for(int j = i-2; j >= 0; j--){
-        strung2electricboogaloo[i-j-1] = strunged[j];
+      for(int k = i-1; k >= 0; k--){
+        strung2electricboogaloo[i-k-1] = strunged[k];
       }
       strung2electricboogaloo[i] = '!';
-      strung2electricboogaloo[i + 1] = '\x00';
+      //strung2electricboogaloo[i + 1] = '\x00';
       UART_PutChar('\n');
       UART_PutString(strung2electricboogaloo);
       
+      if(strung2electricboogaloo == password){
+         get_flag();   
+      }
     }
 }
 
